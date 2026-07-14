@@ -8,3 +8,11 @@ def solution(n):
         if n%i==0:
             answer += 1
     return answer
+    
+2) #출력형태 [(1, 6), (2, 3), (3, 2), (6, 1)]
+def solution(n):
+    answer = []
+    for i in range(1, n+1):
+        if n % i == 0:
+            answer.append((i, n//i))
+    return answer
