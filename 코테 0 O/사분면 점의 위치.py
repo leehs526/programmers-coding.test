@@ -8,3 +8,5 @@ def solution(dot):
         return 3
     else:
         return 2
+        
+2)
